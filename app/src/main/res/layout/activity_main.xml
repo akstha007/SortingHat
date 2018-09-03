@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/houseR"
+    tools:context="com.sortinghat.ashokkumarshrestha.sortinghat.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imgTitle"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:padding="7dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/icon_256"
+        android:background="@drawable/bg_circle"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnQuote"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/instructions"
+            android:padding="3dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_owl1" />
+
+        <ImageButton
+            android:id="@+id/btnRateUs"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/instructions"
+            android:padding="7dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_stard" />
+
+        <ImageButton
+            android:id="@+id/btnShareUs"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/instructions"
+            android:padding="7dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_share" />
+
+        <ImageButton
+            android:id="@+id/btnWizard"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/instructions"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_wiz_hat" />
+
+        <ImageButton
+            android:id="@+id/btnSettings"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/instructions"
+            android:padding="7dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_settings" />
+
+        <ImageButton
+            android:id="@+id/btnMoreGames"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/instructions"
+            android:padding="7dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_new"
+            android:visibility="gone"/>
+
+        <ImageButton
+            android:id="@+id/btnPlay"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/instructions"
+            android:padding="7dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_play" />
+
+
+    </LinearLayout>
+</LinearLayout>
+

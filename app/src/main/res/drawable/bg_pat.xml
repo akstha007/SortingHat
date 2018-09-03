@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="oval">
+            <corners android:radius="30dp" />
+            <solid android:color="@color/orange" />
+            <!--shadow Color-->
+        </shape>
+    </item>
+
+    <item
+        android:width="220dp"
+        android:height="130dp"
+        android:src="@drawable/ic_p">
+        <shape android:shape="oval">
+            <corners android:radius="30dp" />
+            <solid android:color="@color/orange" />
+            <!--shadow Color-->
+        </shape>
+    </item>
+
+</layer-list>

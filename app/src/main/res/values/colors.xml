@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03a9f4</color>
+    <color name="colorPrimaryDark">#0288d1</color>
+    <color name="colorAccent">#f44336</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorHomeBtn">#e53935</color>
+    <color name="colorHomeBtnBorder">#c62828</color>
+
+    <color name="year">#999999</color>
+    <color name="title">#222222</color>
+
+    <color name="houseG">#f44336</color>
+    <color name="houseS">#009688</color>
+    <color name="houseR">#03a9f4</color>
+    <color name="houseH">#ffc107</color>
+
+    <array name="array_house_color">
+        <item>@color/houseG</item>
+        <item>@color/houseS</item>
+        <item>@color/houseR</item>
+        <item>@color/houseH</item>
+    </array>
+
+    <color name="qtitleG">#d32f2f</color>
+    <color name="qtitleR">#1976d2</color>
+    <color name="qtitleS">#00796b</color>
+    <color name="qtitleH">#ffa000</color>
+
+    <array name="array_house_title">
+        <item>@color/qtitleG</item>
+        <item>@color/qtitleS</item>
+        <item>@color/qtitleR</item>
+        <item>@color/qtitleH</item>
+    </array>
+
+    <color name="btnTransparent">#32111111</color>
+    <color name="orange">#e67e22</color>
+    <color name="dark_orange">#d35400</color>
+    <color name="my_notif_color">#455a64</color>
+</resources>

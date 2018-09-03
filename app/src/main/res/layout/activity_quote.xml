@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorWhite"
+    tools:context="com.sortinghat.ashokkumarshrestha.sortinghat.QuoteActivity">
+
+    <TextView
+        android:id="@+id/txtQuote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tap on owl for Today\'s Quote"
+        android:padding="10dp"
+        android:gravity="left"
+        android:layout_marginRight="7dp"
+        android:layout_marginLeft="7dp"
+        android:textColor="@color/dark_orange"
+        />
+
+    <ImageButton
+        android:id="@+id/imgQuoteOwl"
+        android:background="@null"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/quoteLayer"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:maxHeight="200dp"
+        android:maxWidth="200dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_owl2"
+        android:layout_margin="10dp"/>
+
+    <Switch
+        android:id="@+id/switchQuote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnHideQuote"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:checked="false"
+        android:text="Daily Quote"
+        android:textSize="18dp"
+        android:textColor="@color/orange"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/txtQuoteTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quote Time: 6:30"
+        android:padding="10dp"
+        android:textSize="18dp"
+        android:textColor="@color/orange"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnSetTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:padding="15dp"
+        android:text="Set quote time"
+        android:background="@drawable/bg_games_b"
+        android:textColor="@color/colorWhite"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutHint"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/bg_games"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    tools:context="com.sortinghat.ashokkumarshrestha.sortinghat.Level7Activity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="Hint"
+            android:textColor="@color/dark_orange"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/btnClose"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_games_b"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_cancle"
+            />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_margin="5dp"
+        android:background="@color/orange" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="First Letter"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnHintFirst"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_gamesinfo"
+            android:drawableRight="@drawable/ic_coinmini"
+            android:paddingRight="5dp"
+            android:text="5"
+            android:padding="5dp"
+            android:textColor="@color/colorWhite" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="First Three Letters"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnHintMore"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_gamesinfo"
+            android:drawableRight="@drawable/ic_coinmini"
+            android:paddingRight="5dp"
+            android:text="15"
+            android:textColor="@color/colorWhite" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Reveal Answer"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnHintAll"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_gamesinfo"
+            android:drawableRight="@drawable/ic_coinmini"
+            android:paddingRight="5dp"
+            android:text="30"
+            android:textColor="@color/colorWhite" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_games"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Earn 100 points! Watch Ads!" />
+
+        <ImageButton
+            android:id="@+id/btnVidAds"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_games"
+            android:padding="3dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_tv" />
+    </LinearLayout>
+</LinearLayout>
+
+

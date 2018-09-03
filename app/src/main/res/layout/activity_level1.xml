@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sortinghat.ashokkumarshrestha.sortinghat.Level1Activity">
+
+    <include
+        android:id="@+id/layoutLevelGame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/activity_levelgame"
+        />
+
+</RelativeLayout>
